@@ -18,13 +18,39 @@ header{
 }
 
 .panel{
-    width: 400px;
+    width: auto;
+    display: flex;
     background-color: rgba(23, 45, 104, 0.74);
     backdrop-filter: blur(30px);
-    margin-top: -50px;
     border-radius: 10px;
-    padding: 10px 20px 30px 20px;
+    padding: 20px;
     text-align: center;
+}
+
+.download-frame{
+    width: 400px;
+}
+
+.description-frame{
+    width: 400px;
+    margin-left: 20px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    background-color: rgba(48, 85, 187, 0.74);
+}
+
+.description-frame h2{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: left;
+    padding: 40px;
+}
+
+.description-frame h2 ul li{
+    font-size: 14px;
 }
 
 video {
@@ -102,3 +128,10 @@ video {
     margin-top: 50px;
     font-style: italic;
 }
+
+
+    ul {
+        list-style: none; /* Quitamos los marcadores */
+        line-height: 30px;
+        padding: 0; /* Quitamos el padding por defecto de la lista */
+        }
