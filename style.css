@@ -135,3 +135,39 @@ video {
         line-height: 30px;
         padding: 0; /* Quitamos el padding por defecto de la lista */
         }
+
+.nousb{
+    position:fixed;
+    top: 0;
+    margin: 20px;
+    width: 50px;
+    display: flex;
+    flex-direction: row;
+    line-height: 48px;
+    overflow: hidden;
+    background-color: #09b39d;
+    border: 2px solid #076458;
+    border-radius: 100px;
+    transition: 0.3s;
+}
+
+.nousb:hover{
+    width: 224px;
+}
+
+.nousb img{
+    transition: 0.3s;
+}
+
+.nousb:hover img{
+    transform: rotateZ(90deg);
+}
+
+.nousb span{
+    text-decoration: none;
+    color: white;
+    min-width: 150px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 10px;
+}
